@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#e0dfdf;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #d2d1d1;
+    padding: 20px;
+    border-radius: 8px ;
+    border: 3mm ridge rgba(249, 0, 0, 0.634);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+
+.container:hover {
+    background-color: rgb(1, 106, 106);
+    color: #fff;
+    transition: 1s;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:hover {
+    background-color: rgb(34, 26, 14);
+    color: #fff;
+    transition: 1s;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px ;
+    box-sizing: border-box;
+}
+
+select:hover {
+    background-color: rgb(34, 26, 14);
+    color: #fff;
+    transition: .7s;
+}
+
+button {
+    background-color: #25b02a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+button:hover {
+    background-color: #dbdbdb;
+    color: #000000;
+    transition: .5s;
+}
+
+
+
