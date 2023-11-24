@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Css styling -->
+    <link rel="stylesheet" href="./Css/style.css">
+
+    <title>Temperature</title>
+
+</head>
+
+<body>
+
+    <div class="circle1"></div>
+    <div class="circle2"></div>
+    
+    <div class="container">
+
+        <h2>Temperature Converter</h2>
+            <label for="temperature">Enter Temperature:</label>
+            <input type="number" id="temperature" placeholder="Enter Temperature" required>
+
+            <label for="unit">Select Unit:</label>
+                <select id="unit">
+                    <option value="celsius">
+                        Celsius
+                    </option>
+                    <option value="fahrenheit">
+                        Fahrenheit
+                    </option>
+                </select>
+
+                <button onclick="convertTemperature()">Convert</button>
+
+            <div id="result"></div>
+
+        <h3>Cool Presets</h3>
+                <button onclick="setPreset(0)">
+                    Cool Day
+                </button>
+                <button onclick="setPreset(20)">
+                    Cool Night
+                </button>
+                <button onclick="setPreset(100)">
+                    Ice Cold
+                </button>
+    </div>
+
+    <!-- JS script -->
+    <script src="./script/code.js"></script>
+
+</body>
+</html>
